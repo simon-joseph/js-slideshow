@@ -1,0 +1,106 @@
+body {
+	background: gray;
+}
+
+
+/** 
+ * Slideshow style rules.
+ */
+#slideshow {
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0px;
+	position: relative;
+	z-index: 0;
+	bottom: auto;
+	top: 0px;
+	width: 620px;
+	background:white;
+}
+#slideshow #slidesContainer {
+  background-position: 50px -70px;
+  background-repeat: no-repeat;
+  background-image: url(img/back_img.png);
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 520px;
+  overflow:auto; /* allow scrollbar */
+}
+
+.slide img{   
+	padding-left: 50px;
+}
+
+.table img{   
+	padding-left: 0;
+}
+
+#slideshow #slidesContainer .slide {
+  top: -70px;
+  left: auto;
+  bottom: auto;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+}
+
+#slideshow #slidesContainer .caption {
+  font-family: sans-serif;
+  text-shadow: 1px 1px 1px gray;
+  top: -40px;
+  font-size: large;
+  text-align: left;
+  left: 0px;
+  bottom: auto;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+}
+
+
+#slideshow #slidesContainer .table {
+  top: -40px;
+  font-size: medium;
+  text-align: center;
+  left: 0px;
+  bottom: auto;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 412px;
+  text-indent:-10000px;
+  cursor: pointer;
+}
+#leftControl {
+  left: 10px;
+  top: 10px;
+  background:transparent url(img/control_left.png) no-repeat 0 0;
+}
+#rightControl {
+  right: 10px;
+  top: 10px;
+  background:transparent url(img/control_right.png) no-repeat 0 0;
+}

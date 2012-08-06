@@ -7,6 +7,9 @@
     <meta name="description" content="Js-slideshow : Slideshow written in JS" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="slide.css">
+	<script type="text/javascript" src="jquery-1.4.3.js"></script>
+	<script type="text/javascript" src="slide.js"></script>
 
     <title>Js-slideshow</title>
   </head>
@@ -34,6 +37,975 @@
         <h3>Description</h3>
 
 <p>This is a simple slideshow written in Javascript.</p>
+
+<h3>Slideshow</h3>
+<!-- Slideshow HTML -->
+<div id="slideshow">
+	<div id="slidesContainer">
+		<div class="slide">
+			<div>
+				<img src="img/slide1.png" alt="">
+			</div>
+			<div class="caption">
+				Tortor Dapibus Fermentum Ornare
+			</div>
+			<div class="caption">
+				Ridiculus Ipsum
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/r.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/rt4.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/rt6.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Sit
+						</td>
+						<td>
+							Nullam
+						</td>
+						<td>
+							Sollicitudin
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							So/2 + 380
+						</td>
+						<td>
+							So/4 + 290
+						</td>
+						<td>
+							So/6 + 280
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							So/2 + 260
+						</td>
+						<td>
+							So/4 + 260
+						</td>
+						<td>
+							So/6 + 265
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							135
+						</td>
+						<td>
+							270
+						</td>
+						<td>
+							400
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide1.png" alt="">
+			<div class="caption">
+				Adipiscing Vestibulum Lorem Ultricies
+			</div>
+			<div class="caption">
+				Elit Tristique
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/r.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/rt4.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/rt6.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Etiam
+						</td>
+						<td>
+							Condimentum
+						</td>
+						<td>
+							Justo
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							So/2 + 380
+						</td>
+						<td>
+							So/4 + 290
+						</td>
+						<td>
+							So/6 + 280
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							So/2 + 260
+						</td>
+						<td>
+							So/4 + 260
+						</td>
+						<td>
+							So/6 + 265
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							175
+						</td>
+						<td>
+							350
+						</td>
+						<td>
+							520
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide2.png" alt="">
+			<div class="caption">
+				Ligula Sit Lorem Nibh Magna
+			</div>
+			<div class="caption">
+				Cursus Ipsum
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/o.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/ot2.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/ot3.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Consectetur
+						</td>
+						<td>
+							Porta
+						</td>
+						<td>
+							Aenean
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+							255
+						</td>
+						<td>
+							360
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+							255
+						</td>
+						<td>
+							360
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							Ho + 440
+						</td>
+						<td>
+							Ho/2 + 460
+						</td>
+						<td>
+							Ho/3 + 460
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							260
+						</td>
+						<td>
+							205
+						</td>
+						<td>
+							285
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide2.png" alt="">
+			<div class="caption">
+				Amet Tristique Aenean Dapibus
+			</div>
+			<div class="caption">
+				Dolor Lorem
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/o.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/ot2.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/ot3.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Venenatis
+						</td>
+						<td>
+							Ridiculus
+						</td>
+						<td>
+							Condimentum
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+							255
+						</td>
+						<td>
+							360
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							150
+						</td>
+						<td>
+							255
+						</td>
+						<td>
+							360
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							Ho + 440
+						</td>
+						<td>
+							Ho/2 + 460
+						</td>
+						<td>
+							Ho/3 + 460
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							295
+						</td>
+						<td>
+							320
+						</td>
+						<td>
+							375
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide6.png" alt="">
+			<div class="caption">
+				Tortor Ligula Nullam Fringilla
+			</div>
+			<div class="caption">
+				Sem Dolor
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/p.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/pt2.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/pt3.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Ligula
+						</td>
+						<td>
+							Magna
+						</td>
+						<td>
+							Ipsum
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							245
+						</td>
+						<td>
+							245
+						</td>
+						<td>
+							245
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							So + 210
+						</td>
+						<td>
+							So/2 + 170
+						</td>
+						<td>
+							So/3 + 160
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							135
+						</td>
+						<td>
+							270
+						</td>
+						<td>
+							400
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide6.png" alt="">
+			<div class="caption">
+				Sit Risus Vehicula Egestas Malesuada
+			</div>
+			<div class="caption">
+				Risus Fusce
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/p.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/pt2.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/pt3.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Tristique
+						</td>
+						<td>
+							Ridiculus
+						</td>
+						<td>
+							Bibendum
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							245
+						</td>
+						<td>
+							245
+						</td>
+						<td>
+							245
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							So + 210
+						</td>
+						<td>
+							So/2 + 170
+						</td>
+						<td>
+							So/3 + 160
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+						<td>
+							110
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							175
+						</td>
+						<td>
+							350
+						</td>
+						<td>
+							520
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide3.png" alt="">
+			<div class="caption">
+				Lorem Sollicitudin Venenatis Ridiculus
+			</div>
+			<div class="caption">
+				Commodo Cras
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/sv.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/sh.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Ornare
+						</td>
+						<td>
+							Ultricies
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							330
+						</td>
+						<td>
+							330
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							330
+						</td>
+						<td>
+							330
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							700
+						</td>
+						<td>
+							530
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							Ho/3 + 1300
+						</td>
+						<td>
+							Ho + 1300
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide3.png" alt="">
+			<div class="caption">
+				Ultricies Dapibus Venenatis Egestas Fringilla
+			</div>
+			<div class="caption">
+				Aenean Nibh Pharetra
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/sv.jpg" alt="">
+						</td>
+						<td>
+							<img src="img/b/sh.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Fringilla
+						</td>
+						<td>
+							Ullamcorper
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							330
+						</td>
+						<td>
+							330
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							330
+						</td>
+						<td>
+							330
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							700
+						</td>
+						<td>
+							530
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							Ho/3 + 1300
+						</td>
+						<td>
+							Ho + 1300
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide7.png" alt="">
+			<div class="caption">
+				Aenean Justo
+			</div>
+			<div class="caption">
+				Ullamcorper Tortor
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/D.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Commodo Dapibus
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							Parturient
+						</td>
+						<td>
+							Consectetur
+						</td>
+						<td>
+							Sit
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							45
+						</td>
+						<td>
+							105
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							45
+						</td>
+						<td>
+							105
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							45
+						</td>
+						<td>
+							105
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							So/2
+						</td>
+						<td>
+							So/2
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide4.png" alt="">
+			<div class="caption">
+				Fermentum Tortor Commodo
+			</div>
+			<div class="caption">
+				Pellentesque Pharetra
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/vr.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Egestas
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							360
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							220
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							620
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							620
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide4.png" alt="">
+			<div class="caption">
+				Dapibus Vehicula / Fringilla Fermentum Porta
+			</div>
+			<div class="caption">
+				Risus
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/vr.jpg" alt=""><img src="img/b/vro.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Pellentesque Adipiscing
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							65
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							80
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							220
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							155
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="img/slide5.png" alt="">
+			<div class="caption">
+				Pharetra Purus Fusce
+			</div>
+			<div class="caption">
+				Magna Vulputate
+			</div>
+			<div class="table">
+				<table border="0">
+					<tr>
+						<td></td>
+						<td>
+							<img src="img/b/vro.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							Marc-VRo
+						</td>
+					</tr>
+					<tr>
+						<td>
+							a
+						</td>
+						<td>
+							130
+						</td>
+					</tr>
+					<tr>
+						<td>
+							b
+						</td>
+						<td>
+							130
+						</td>
+					</tr>
+					<tr>
+						<td>
+							c
+						</td>
+						<td>
+							Ho + 170
+						</td>
+					</tr>
+					<tr>
+						<td>
+							d
+						</td>
+						<td>
+							155
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div><!-- Slideshow HTML -->
       </section>
     </div>
 
