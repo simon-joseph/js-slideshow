@@ -16,7 +16,7 @@ body {
 	bottom: auto;
 	top: 0px;
 	width: 620px;
-	background:white;
+	background:#F2F2F2;
 }
 #slideshow #slidesContainer {
   background-position: 50px -70px;
@@ -27,12 +27,16 @@ body {
   margin-bottom: 0px;
   margin-right: auto;
   margin-top: 0px;
-  width: 520px;
+  width: 560px;
   overflow:auto; /* allow scrollbar */
 }
 
 .slide img{   
-	padding-left: 50px;
+	padding: 0 0 0 50px;
+	width: auto;
+	border:0;
+	margin:0;
+	box-shadow: none;
 }
 
 .table img{   
@@ -48,7 +52,7 @@ body {
   margin-bottom: 0px;
   margin-right: auto;
   margin-top: 0px;
-  width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  width: 560px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
 }
 
 #slideshow #slidesContainer .caption {
@@ -64,7 +68,7 @@ body {
   margin-bottom: 0px;
   margin-right: auto;
   margin-top: 0px;
-  width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  width: 560px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
 }
 
 
@@ -80,6 +84,14 @@ body {
   margin-right: auto;
   margin-top: 0px;
   width: 520px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+}
+
+.table td {
+	border: 0px;
+}
+
+.table table {
+	border: 0px;
 }
 
 /** 
